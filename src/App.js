@@ -14,7 +14,7 @@ export default function App() {
       return {
         ...prevState,
         text: "Your coupon has been used.",
-        valid: "false",
+        valid: false,
         instructions: "Please visit our restaurant to renew your gift card.",
       };
     });
